@@ -77,11 +77,15 @@ aside {
 }
 
 .name-tag {
-    padding: 20px 5px 0 5px;
+    padding: 15px 0px 5px 15px;
     margin: 5px 0 2px 3px;
 }
 
-.namebar1 {
+.name-text {
+    padding-bottom: 5px;
+}
+
+.namebar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -116,14 +120,7 @@ aside {
     color: green;
 }
 
-.namebar2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    height: 90px;
-    border-bottom: 1px solid #d9d9df
-}
+
 
 
 
