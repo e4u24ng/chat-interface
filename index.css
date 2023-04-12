@@ -17,7 +17,7 @@ aside {
 .sidebar1 {
     display: flex;
     width: 100%;
-    height: 90px;
+    height: 80px;
     /* box-shadow: 2px 5px 5px #d9d9df; */
     border-bottom: 1px solid #d9d9df;
 
@@ -51,8 +51,10 @@ aside {
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
-    height: 90px;
-    border-bottom: 1px solid #d9d9df
+    height: 80px;
+    border-bottom: 1px solid #d9d9df;
+    padding: 1px 0px 5px 0px;
+    margin-top: -8px;
 }
 
 .nav-icon {
@@ -71,33 +73,38 @@ aside {
     height: 60px;
     border-radius: 45%;
     cursor: pointer;
-    margin: 25px 1px 4px 5px;
+    margin: 15px 1px 4px 5px;
 }
 
 .name-tag {
-    padding: 20px 5px 0 5px;
+    padding: 15px 0px 5px 15px;
     margin: 5px 0 2px 3px;
 }
 
-.namebar1 {
+.name-text {
+    padding-bottom: 5px;
+}
+
+.namebar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    height: 100px;
+    height: 80px;
     border-bottom: 1px solid #d9d9df
 }
 
 .span-text {
     color: #6c7176;
-    /* opacity: 0.9; */
 }
 
-.number-div {
-    border-radius: 45%;
-    background-color: #3366ff;
-    width: 30px;
-    height: 30px;
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
 }
 
 .div-time {
@@ -108,6 +115,11 @@ aside {
 .time-text {
     line-height: 3em;
 }
+
+.logged-in {
+    color: green;
+}
+
 
 
 
