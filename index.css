@@ -81,8 +81,13 @@ aside {
     margin: 5px 0 2px 3px;
 }
 
-.name-text {
-    padding-bottom: 5px;
+.name-tag1 {
+    padding: 15px 0px 5px 15px;
+    margin: 5px 0 2px 3px;
+}
+
+.message-info {
+    margin: 7px 0 0 0;
 }
 
 .namebar {
@@ -96,6 +101,8 @@ aside {
 
 .span-text {
     color: #6c7176;
+    margin: 7px 0 0 0;
+    font-size: 13px;
 }
 
 
@@ -138,6 +145,43 @@ aside {
     background-color: white;
 }
 
+.chat-info {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.chat-head {
+    display: flex;
+    flex-direction: row;
+}
+
+.chat-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.icon-container {
+    float: right;
+    justify-content: end;
+    display: flex;
+    padding: 30px;
+}
+
+.header-icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.namebar-img1 {
+    width: 60px;
+    height: 60px;
+    border-radius: 45%;
+    cursor: pointer;
+    margin: 9px 1px 4px 15px;
+}
 
 
 
