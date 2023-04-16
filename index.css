@@ -145,12 +145,17 @@ aside {
 }
 
 .div-time {
-    padding: 10px 5px 5px 5px;
     color: #6c7176;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 5px;
 }
 
 .time-text {
+    color: #6c7176;
     line-height: 3em;
+    margin-right: 5px;
 }
 
 .logged-in {
@@ -161,10 +166,21 @@ aside {
     font-size: 22px;
 }
 
-.div-time1 {
-    padding: 20px 5px 5px 5px;
+.logged-out {
     color: #6c7176;
+    position: relative;
+    bottom: -60%;
+    left: -6%;
+    font-size: 22px;
 }
+
+.div-time1 {
+    color: #6c7176;
+    line-height: 3em;
+    margin-right: 5px;
+
+}
+
 
 .chat-container {
     width: 75%;
