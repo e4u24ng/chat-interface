@@ -264,6 +264,7 @@ aside {
 .chat-message {
     display: flex;
     width: 100%;
+    flex-direction: column;
 
 }
 
@@ -278,14 +279,27 @@ aside {
 }
 
 .message-received {
-    width: 550px;
-    min-height: 50px;
+    width: 511px;
+    min-height: 40px;
     background: #3399ff;
     color: white;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    margin-right: -40px;
+    margin-right: -100px;
+}
+
+.message-sent {
+    width: 473px;
+    height: 50px;
+    background: white;
+    color: black;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: -88px;
+    margin-top: 25px;
+    text-align: center;
 }
 
 .div-img {
@@ -303,8 +317,39 @@ aside {
 }
 
 .span-chat {
+    justify-content: center;
     text-align: center;
+    display: flex;
+    padding: 15px;
+    font-size: 15px;
+}
 
+.span-time {
+    color: #46494d;
+}
+
+.ellipsis-div {
+    flex-flow: row-reverse;
+    display: flex;
+    gap: 15px;
+}
+
+.ellipsis {
+    color: #46494d;
+}
+
+.ellipsis1 {
+    margin-top: 35px
+}
+
+.chat2 {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    align-items: center;
+    justify-content: start;
+    margin-top: 50px;
+    height: 40px;
 }
 
 
