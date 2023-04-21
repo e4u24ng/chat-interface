@@ -352,6 +352,15 @@ aside {
     height: 40px;
 }
 
+.chat3 {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    align-items: center;
+    justify-content: end;
+    padding-right: 40px;
+    margin-top: 40px;
+}
 
 
 
