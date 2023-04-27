@@ -26,10 +26,11 @@ aside {
 
 .sidebar2 {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     width: 100%;
     height: 80px;
-    /* border-b: 1px solid #d9d9df; */
-
+    /* border-bottom: 1px solid #d9d9df */
 }
 
 .img {
@@ -398,6 +399,7 @@ aside {
     flex-direction: column;
     gap: 15px;
     width: 79%;
+    margin-left: 0px;
 
 }
 
@@ -407,6 +409,20 @@ aside {
     gap: 15px;
     justify-content: flex-end;
     margin-left: 153px;
+}
+
+.new-chat {
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #3399ff;
+    position: relative;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 
 .div-placeholder {
@@ -427,6 +443,7 @@ aside {
     display: flex;
     flex-direction: row-reverse;
     gap: 10px;
+    width: 635px;
 }
 
 .chat-img1 {
@@ -492,10 +509,64 @@ aside {
     background-color: white;
     width: 100%;
     height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textarea-font1 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 35px 15px 15px 15px;
+}
+
+.textarea-font2 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 30px;
+    justify-content: space-around;
+}
+
+
+.input-textarea {
+    background-color: white;
+    width: 790px;
+    height: 54px;
+    border-radius: 35px;
+    margin-left: -20px;
+    margin-top: -10px;
+}
+
+.text-font {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    margin-left: -120px;
+    margin-top: 17px;
+}
+
+.textarea-font3 {
+    margin: 35px 15px 15px 15px;
 }
 
 
 
-.sidebar-icon :hover {
-    background-color: #3366ff;
+
+
+
+
+
+
+
+
+
+@media (max-width :480px) {
+    .chat-container {
+        display: none;
+    }
+
+    aside {
+        width: 100%;
+    }
 }
